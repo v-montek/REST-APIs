@@ -1,5 +1,8 @@
 a=5
 b=7
+my_varible='hello'
 
-my_varible=56
-print(a)
+def my_method(a='Monek ',b='ok'):
+    return a+b
+
+print(my_method())
